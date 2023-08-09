@@ -192,8 +192,8 @@ void loop()
   /* Set the message headers */
   message.sender.name = "Skunk-0-matic";
   message.sender.email = AUTHOR_EMAIL;
-  message.subject = "[ALERT] Assblaster3000 FIREDDDD";
-  message.addRecipient("Someone", "andrewwyattpeterson@gmail.com");
+  message.subject = "[ALERT] Sprayer FIREDDDD";
+  message.addRecipient("Someone");
   String textMsg = "Skunk0matic fired!";
   message.text.content = textMsg.c_str();
 
